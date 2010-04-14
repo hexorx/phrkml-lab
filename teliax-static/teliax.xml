@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
 <Response>
   <Rule>
     <Conditions>
       <Schedule time="08:00-17:00" day_of_week="mon-fri"/>
     </Conditions>
     <Match>
-      <Gather action="http://open/#{digit}.xml" method="GET" timeout="10" numDigits="1">
-        <Play>http://foo.com/open.mp3</Play>
+      <Gather action="http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/open/#{digit}" method="GET" timeout="10" numDigits="1">
+        <Play>http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/open.wav</Play>
       </Gather>
     </Match>
     <NoMatch>
-      <Gather action="http://closed/#{digit}.xml" method="GET" timeout="10" numDigits="1">
-        <Play>http://foo.com/closed.mp3</Play>
+      <Gather action="http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/closed/#{digit}" method="GET" timeout="10" numDigits="1">
+        <Play>http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/open.wav</Play>
       </Gather>
     </NoMatch>
   </Rule>
