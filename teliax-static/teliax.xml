@@ -1,0 +1,17 @@
+<Response>
+  <Rule>
+    <Conditions>
+      <Schedule time="08:00-17:00" day_of_week="mon-fri"/>
+    </Conditions>
+    <Match>
+      <Gather action="http://open/#{digit}.xml" method="GET" timeout="10" numDigits="1">
+        <Play>http://foo.com/open.mp3</Play>
+      </Gather>
+    </Match>
+    <NoMatch>
+      <Gather action="http://closed/#{digit}.xml" method="GET" timeout="10" numDigits="1">
+        <Play>http://foo.com/closed.mp3</Play>
+      </Gather>
+    </NoMatch>
+  </Rule>
+</Response>
