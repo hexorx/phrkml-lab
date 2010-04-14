@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <Response>
-  <Redirect method="GET">
-    http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/teliax.xml    
-  </Redirect>
+  <Dial>
+    <Sip>noc1@example.com</Sip>
+    <Sip>noc2@example.com</Sip>
+  </Dial>
 </Response>

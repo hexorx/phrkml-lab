@@ -11,7 +11,7 @@
     </Match>
     <NoMatch>
       <Gather action="http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/closed/#{digit}" method="GET" timeout="10" numDigits="1">
-        <Play>http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/open.wav</Play>
+        <Play>http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/closed.wav</Play>
       </Gather>
     </NoMatch>
   </Rule>
