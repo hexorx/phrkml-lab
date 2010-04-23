@@ -5,12 +5,12 @@
       <Schedule time="08:00-17:00" day_of_week="mon-fri"/>
     </Conditions>
     <Match>
-      <Gather action="http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/open/#{digit}" method="GET" timeout="10" numDigits="1">
+      <Gather action="http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/open/$.xml" method="GET" timeout="10" numDigits="1">
         <Play>http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/open.wav</Play>
       </Gather>
     </Match>
     <NoMatch>
-      <Gather action="http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/closed/#{digit}" method="GET" timeout="10" numDigits="1">
+      <Gather action="http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/closed/$.xml" method="GET" timeout="10" numDigits="1">
         <Play>http://github.com/hexorx/phrkml-lab/raw/master/teliax-static/closed.wav</Play>
       </Gather>
     </NoMatch>
