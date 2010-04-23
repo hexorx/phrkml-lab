@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<Response>
-  <Dial>
-    <Sip>noc1@example.com</Sip>
-    <Sip>noc2@example.com</Sip>
-  </Dial>
-</Response>
