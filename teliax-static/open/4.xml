@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <Response>
   <Redirect method="GET">
-    <Sip>ports1@example.com</Sip>
-    <Sip>ports2@example.com</Sip>
+    <Sip>dan@xeo.beta.teliax.com</Sip>
   </Redirect>
 </Response>

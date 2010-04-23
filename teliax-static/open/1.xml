@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <Response>
   <Dial>
-    <Sip>sales1@example.com</Sip>
-    <Sip>sales2@example.com</Sip>
+    <Sip>dan@xeo.beta.teliax.com</Sip>
   </Dial>
 </Response>
