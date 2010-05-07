@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <Response>
-  <Redirect method="GET">
+  <!-- existing ports or provisioning -->
+  <Dial>
     <Sip>dan@xeo.beta.teliax.com</Sip>
-  </Redirect>
+  </Dial>
 </Response>

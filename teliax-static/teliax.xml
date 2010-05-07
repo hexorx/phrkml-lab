@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <Response>
+  <!-- 1 for sales, 2 for support, 3 for billing, 4 for existing ports or provisioning -->
   <Rule>
     <Conditions>
       <Schedule time="08:00-17:00" day_of_week="mon-fri"/>
