@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <Response>
-  <Redirect method="GET">
-    <Sip>support1@example.com</Sip>
-    <Sip>support2@example.com</Sip>
-  </Redirect>
+  <!-- support -->
+  <Dial>
+    <Sip>dan@xeo.beta.teliax.com</Sip>
+  </Dial>
 </Response>
